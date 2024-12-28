@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'vazir-regular';
+    src: url(../assets/fonts/Vazirmatn-Regular.woff2);
+}
+
+body{
+    direction: rtl;
+    font-family: 'vazir-regular';
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-menu{
+    display: flex;
+    list-style: none;
+    gap: 0 10px;
+}
+
+.main-menu li a{
+    color: black;
+    text-decoration: double;
+    text-decoration: none;
+    padding: 0 0 10px 0;
+    transition: .8s all;
+    border-bottom: 0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #dadada;
+}
+
+.main-menu li a:hover{
+    color: chocolate;
+    border-bottom: 2px solid #008037;
+    transition: 1s all;
+}
+
+.trend{
+    display: flex;
+    gap: 0 15px;
+    /* margin-top: 10px; */
+    justify-content: center;
+    background-color: #e1eefe;
+    padding: 10px;
+    height: 160px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.trend h3{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 3px 0 0 0;
+    text-align: center;
+}
+
+.trend img{
+    border-radius: 100%;
+    width: 90px;
+    border: 4px dashed #15ad71;
+    transition: .6s all;
+    padding: 4px;
+
+}
+
+.trend img:hover{
+    width: 100px;
+    transition: .6s all;
+    transform: rotate(360deg);
+}
+
+.trend div{
+    height: max-content;
+}
+
