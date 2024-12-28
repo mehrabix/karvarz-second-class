@@ -76,3 +76,42 @@ header{
     height: max-content;
 }
 
+.search{
+    height: 75px;
+    background-color: #ecf1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search form{
+    margin: 0;
+}
+
+.search input[type=search]{
+    padding: 15px;
+    transition: .3s all;
+
+}
+
+.search input[type=search]:focus-visible{
+    outline: none;
+    border: 2px solid #94f1ff;
+    border-radius: 10px;
+    transition: .3s all;
+}
+
+.search input[type=submit]{
+    background-color: #6bcdac;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .4s all;
+
+}
+
+.search input[type=submit]:hover{
+    background-color: #519e84;
+    cursor: pointer;
+    transition: .4s all;
+}
